@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92A5DC2D1B246C0A00F6FC17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A5DC2C1B246C0A00F6FC17 /* AppDelegate.m */; };
+		92A5DC2F1B246C0A00F6FC17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A5DC2E1B246C0A00F6FC17 /* main.m */; };
+		92A5DC321B246C0A00F6FC17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A5DC311B246C0A00F6FC17 /* ViewController.m */; };
+		92A5DC341B246C0A00F6FC17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A5DC331B246C0A00F6FC17 /* Images.xcassets */; };
+		92A5DC371B246C0A00F6FC17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A5DC351B246C0A00F6FC17 /* Main.storyboard */; };
+		92A5DC431B246C0B00F6FC17 /* KonachanDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A5DC421B246C0B00F6FC17 /* KonachanDownloaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92A5DC3D1B246C0B00F6FC17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A5DC1E1B246C0A00F6FC17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A5DC251B246C0A00F6FC17;
+			remoteInfo = KonachanDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92A5DC261B246C0A00F6FC17 /* KonachanDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KonachanDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A5DC2A1B246C0A00F6FC17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A5DC2B1B246C0A00F6FC17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92A5DC2C1B246C0A00F6FC17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92A5DC2E1B246C0A00F6FC17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92A5DC301B246C0A00F6FC17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92A5DC311B246C0A00F6FC17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92A5DC331B246C0A00F6FC17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92A5DC361B246C0A00F6FC17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92A5DC3C1B246C0B00F6FC17 /* KonachanDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KonachanDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A5DC411B246C0B00F6FC17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A5DC421B246C0B00F6FC17 /* KonachanDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KonachanDownloaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92A5DC231B246C0A00F6FC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A5DC391B246C0B00F6FC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92A5DC1D1B246C0A00F6FC17 = {
+			isa = PBXGroup;
+			children = (
+				92A5DC281B246C0A00F6FC17 /* KonachanDownloader */,
+				92A5DC3F1B246C0B00F6FC17 /* KonachanDownloaderTests */,
+				92A5DC271B246C0A00F6FC17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92A5DC271B246C0A00F6FC17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92A5DC261B246C0A00F6FC17 /* KonachanDownloader.app */,
+				92A5DC3C1B246C0B00F6FC17 /* KonachanDownloaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92A5DC281B246C0A00F6FC17 /* KonachanDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				92A5DC2B1B246C0A00F6FC17 /* AppDelegate.h */,
+				92A5DC2C1B246C0A00F6FC17 /* AppDelegate.m */,
+				92A5DC301B246C0A00F6FC17 /* ViewController.h */,
+				92A5DC311B246C0A00F6FC17 /* ViewController.m */,
+				92A5DC331B246C0A00F6FC17 /* Images.xcassets */,
+				92A5DC351B246C0A00F6FC17 /* Main.storyboard */,
+				92A5DC291B246C0A00F6FC17 /* Supporting Files */,
+			);
+			path = KonachanDownloader;
+			sourceTree = "<group>";
+		};
+		92A5DC291B246C0A00F6FC17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92A5DC2A1B246C0A00F6FC17 /* Info.plist */,
+				92A5DC2E1B246C0A00F6FC17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92A5DC3F1B246C0B00F6FC17 /* KonachanDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				92A5DC421B246C0B00F6FC17 /* KonachanDownloaderTests.m */,
+				92A5DC401B246C0B00F6FC17 /* Supporting Files */,
+			);
+			path = KonachanDownloaderTests;
+			sourceTree = "<group>";
+		};
+		92A5DC401B246C0B00F6FC17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92A5DC411B246C0B00F6FC17 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92A5DC251B246C0A00F6FC17 /* KonachanDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A5DC461B246C0B00F6FC17 /* Build configuration list for PBXNativeTarget "KonachanDownloader" */;
+			buildPhases = (
+				92A5DC221B246C0A00F6FC17 /* Sources */,
+				92A5DC231B246C0A00F6FC17 /* Frameworks */,
+				92A5DC241B246C0A00F6FC17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KonachanDownloader;
+			productName = KonachanDownloader;
+			productReference = 92A5DC261B246C0A00F6FC17 /* KonachanDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92A5DC3B1B246C0B00F6FC17 /* KonachanDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A5DC491B246C0B00F6FC17 /* Build configuration list for PBXNativeTarget "KonachanDownloaderTests" */;
+			buildPhases = (
+				92A5DC381B246C0B00F6FC17 /* Sources */,
+				92A5DC391B246C0B00F6FC17 /* Frameworks */,
+				92A5DC3A1B246C0B00F6FC17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92A5DC3E1B246C0B00F6FC17 /* PBXTargetDependency */,
+			);
+			name = KonachanDownloaderTests;
+			productName = KonachanDownloaderTests;
+			productReference = 92A5DC3C1B246C0B00F6FC17 /* KonachanDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92A5DC1E1B246C0A00F6FC17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Cee;
+				TargetAttributes = {
+					92A5DC251B246C0A00F6FC17 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					92A5DC3B1B246C0B00F6FC17 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 92A5DC251B246C0A00F6FC17;
+					};
+				};
+			};
+			buildConfigurationList = 92A5DC211B246C0A00F6FC17 /* Build configuration list for PBXProject "KonachanDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92A5DC1D1B246C0A00F6FC17;
+			productRefGroup = 92A5DC271B246C0A00F6FC17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92A5DC251B246C0A00F6FC17 /* KonachanDownloader */,
+				92A5DC3B1B246C0B00F6FC17 /* KonachanDownloaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92A5DC241B246C0A00F6FC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A5DC341B246C0A00F6FC17 /* Images.xcassets in Resources */,
+				92A5DC371B246C0A00F6FC17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A5DC3A1B246C0B00F6FC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92A5DC221B246C0A00F6FC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A5DC321B246C0A00F6FC17 /* ViewController.m in Sources */,
+				92A5DC2F1B246C0A00F6FC17 /* main.m in Sources */,
+				92A5DC2D1B246C0A00F6FC17 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A5DC381B246C0B00F6FC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A5DC431B246C0B00F6FC17 /* KonachanDownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92A5DC3E1B246C0B00F6FC17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92A5DC251B246C0A00F6FC17 /* KonachanDownloader */;
+			targetProxy = 92A5DC3D1B246C0B00F6FC17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92A5DC351B246C0A00F6FC17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A5DC361B246C0A00F6FC17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92A5DC441B246C0B00F6FC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		92A5DC451B246C0B00F6FC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		92A5DC471B246C0B00F6FC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KonachanDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92A5DC481B246C0B00F6FC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KonachanDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92A5DC4A1B246C0B00F6FC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KonachanDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KonachanDownloader.app/Contents/MacOS/KonachanDownloader";
+			};
+			name = Debug;
+		};
+		92A5DC4B1B246C0B00F6FC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KonachanDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KonachanDownloader.app/Contents/MacOS/KonachanDownloader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92A5DC211B246C0A00F6FC17 /* Build configuration list for PBXProject "KonachanDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A5DC441B246C0B00F6FC17 /* Debug */,
+				92A5DC451B246C0B00F6FC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A5DC461B246C0B00F6FC17 /* Build configuration list for PBXNativeTarget "KonachanDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A5DC471B246C0B00F6FC17 /* Debug */,
+				92A5DC481B246C0B00F6FC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92A5DC491B246C0B00F6FC17 /* Build configuration list for PBXNativeTarget "KonachanDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A5DC4A1B246C0B00F6FC17 /* Debug */,
+				92A5DC4B1B246C0B00F6FC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92A5DC1E1B246C0A00F6FC17 /* Project object */;
+}
